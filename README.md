@@ -14,10 +14,4 @@ El diseño de la interfaz de usuario se basa en la creación de una disposición
 
 Por otro lado, display: flexbox me brinda un control más granular sobre el diseño de los elementos dentro de un contenedor flexible. Puedo alinear, distribuir y ordenar los elementos horizontal o verticalmente con facilidad, lo que facilita la creación de diseños fluidos y responsivos.
 
-> Primer responsive
-![primer responsive](https://github.com/danielandradecv/Ptactica-de-Display-Grid-y-FlexBox/blob/main/img/2.jpg)
-
 Al practicar con estas dos técnicas de diseño en este proyecto, estoy fortaleciendo mis habilidades en CSS y mejorando mi capacidad para crear interfaces de usuario atractivas y funcionales. Además, estoy aprendiendo a seleccionar la técnica adecuada según las necesidades específicas de cada diseño, lo que me permitirá abordar futuros proyectos con mayor confianza y eficiencia.
-
-> Responsive Mobile
-![](https://github.com/danielandradecv/Ptactica-de-Display-Grid-y-FlexBox/blob/main/img/3.jpg)
