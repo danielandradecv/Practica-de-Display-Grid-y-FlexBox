@@ -5,6 +5,71 @@ body{
 
 
 }
+
+.templatearea {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px; 
+    grid-template-areas:
+      "hr hr hr hr hr"
+      "main main post post sidebar"
+      "main1 main2 post post sidebar"
+      "main1 main3 post post sidebar"
+      "fr fr fr fr fr"      
+      ;
+      width: 60%;
+      margin: 4% auto 4% auto;
+  }
+  
+  .item {
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow: inset 20px 20px 60px #bebebe,
+                inset -20px -20px 60px #ffffff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 15px 0px rgba(0,0,0,0.75);
+  }
+
+  .co1{
+    grid-area: hr;
+  }
+
+  .co2{
+    grid-area: main;
+  }
+
+  .co3{
+    grid-area: main1;
+  }
+
+  .co4{
+    grid-area: main2;
+  }
+
+  .co5{
+    grid-area: main3;
+  }
+
+  .co6{
+    grid-area: post;
+  }
+
+  .co7{
+    grid-area: sidebar;
+  }
+
+  .co8{
+    grid-area: fr;
+  }
+
+
+
+
 .header{
     box-shadow: 1px 1px 15px 0px rgba(0, 0, 0, 0.75);
     height: 150px;
@@ -84,7 +149,7 @@ body{
 .contenedor_1 div{
     background-image: radial-gradient(circle at 100% 0%, #fbd663 0, #e9d75b 8.33%, #d6d655 16.67%, #c0d551 25%, #a7d34f 33.33%, #8bd04e 41.67%, #6acc50 50%, #3dc855 58.33%, #00c35d 66.67%, #00bf67 75%, #00bb74 83.33%, #00b882 91.67%, #00b492 100%);
     margin: 5px;
-    width: 48%;
+    width: 47%;
     height: 80px;
     box-shadow: inset 1px 1px 15px 0px rgba(0,0,0,0.75);
    
@@ -248,18 +313,35 @@ body{
     
     .contenedorPrincipal{
         
-        width: 88%; 
+        width: 60%; 
     
     }
   }
 
 
-  @media only screen and (max-width: 686px) {
+  @media only screen and (max-width: 796px) {
     .primerParrafo{
         
         width: 88%;
 
     }
+
+    .templatearea {
+          width: 88%;
+          grid-template-columns: repeat(5, 1fr); 
+        grid-template-rows: repeat(7, 1fr);
+        grid-template-areas:
+          "hr hr hr hr hr"
+          "main main main main main"
+          "main1 main1 main1 post post"
+          "main2 main2 main2 post post"
+          "main3 main3 main3 post post"
+          "sidebar sidebar sidebar sidebar sidebar"
+          "fr fr fr fr fr"      
+          
+      }
+
+      
     
     .contenedorPrincipal {
         
@@ -332,6 +414,22 @@ body{
     .contenedorPrincipal{
         grid-template-rows:  0fr 548px 382px 200px;
     }
+
+    .templatearea {
+        grid-template-columns: repeat(5, 1fr); 
+        grid-template-rows: repeat(8, 1fr);
+        grid-template-areas:
+          "hr hr hr hr hr"
+          "main main main main main"
+          "main1 main1 main1 main1 main1"
+          "main2 main2 main2 main2 main2"
+          "main3 main3 main3 main3 main3"
+          "post post post post post"
+          "sidebar sidebar sidebar sidebar sidebar"
+          "fr fr fr fr fr"      
+          ;
+          
+      }
 
     .con2D1{
         grid-column: 1 / 2;
