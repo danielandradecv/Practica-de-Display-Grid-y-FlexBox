@@ -1,10 +1,20 @@
 body{
-    background: rgb(0,212,255);
-    background: radial-gradient(circle, rgba(0,212,255,1) 0%, rgba(9,75,121,1) 76%, rgba(5,59,68,1) 100%);
-    margin: 0px;
+    background-image: linear-gradient(to right top, #000000, #1c1319, #2b202f, #32314a, #2c4467);
+    margin: 0;
 
 
 }
+
+h1{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    font-family: cursive;
+
+
+
+}
+
 
 .templatearea {
     display: grid;
@@ -20,19 +30,21 @@ body{
       ;
       width: 60%;
       margin: 4% auto 4% auto;
+      background: none;
+      box-shadow: none;
   }
   
   .item {
     border-radius: 50px;
-    background: #e0e0e0;
-    box-shadow: inset 20px 20px 60px #bebebe,
-                inset -20px -20px 60px #ffffff;
+    background-color: #ffffff;
+    box-shadow: inset 20px 20px 60px #f1f1f1,
+                inset -20px -20px 60px #535353;
     padding: 20px;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 1px 1px 15px 0px rgba(0,0,0,0.75);
+    
   }
 
   .co1{
@@ -79,6 +91,7 @@ body{
     justify-content: center;
     align-items: center;
     margin-bottom: 60px;
+    b: 0px;
 }
 
 .header img{
@@ -128,12 +141,14 @@ body{
     margin: auto;
     width: 60%;
     margin-bottom: 60px;
+    background: none;
+    box-shadow: none;
     
 
 }
 
 .contenedor_1{
-    background-color: rgba(0, 0, 0, 0.151);
+    background-color: rgb(25 205 231 / 14%);
     grid-column: 1/5;
     display: flex;
     flex-wrap: wrap;
@@ -147,7 +162,7 @@ body{
 }
 
 .contenedor_1 div{
-    background-image: radial-gradient(circle at 100% 0%, #fbd663 0, #e9d75b 8.33%, #d6d655 16.67%, #c0d551 25%, #a7d34f 33.33%, #8bd04e 41.67%, #6acc50 50%, #3dc855 58.33%, #00c35d 66.67%, #00bf67 75%, #00bb74 83.33%, #00b882 91.67%, #00b492 100%);
+    
     margin: 5px;
     width: 47%;
     height: 80px;
@@ -155,10 +170,17 @@ body{
    
 }
 
+div{
+    border-radius: 33px;
+background: #e0e0e0;
+box-shadow: inset 5px 5px 10px #bebebe,
+            inset -5px -5px 10px #ffffff;
+}
+
 
 .contenedor_2{
     grid-column: 1/4;
-    background-color: rgba(0, 0, 0, 0.151);
+    background-color: rgb(25 205 231 / 14%);;
     display: grid;
     grid-gap: 10px;
     grid-template-columns: 10fr 1fr 1fr ;
@@ -169,39 +191,36 @@ body{
 }
 
 .con2D1 {
-    background-color: #00b492;
-    box-shadow: inset 1px 1px 15px 0px rgba(0,0,0,0.75);
+    
     grid-column: 1/3; 
 }  
     
 
 .con2D2{
-    box-shadow: inset 1px 1px 15px 0px rgba(0,0,0,0.75);
+    
     grid-column: 3/4;
-    background-color: red;
+    
     
     
     
 }
 .con2D3{
-    box-shadow: inset 1px 1px 15px 0px rgba(0,0,0,0.75);
+    
     grid-column: 1/2;
-    background-color: #00b492;
+    
     
     
 }
 .con2D4{
-    box-shadow: inset 1px 1px 15px 0px rgba(0,0,0,0.75);
+    
     grid-column: 1/2;
-    background-color: #00b492;
+    
     
     
 }
 .con2D5{
-    box-shadow: inset 1px 1px 15px 0px rgba(0,0,0,0.75);
     grid-column: 2/4;
     grid-row: 2/4;
-    background-color: aqua;
     display: flex;
     align-items: center;
 }
@@ -213,7 +232,7 @@ body{
 
 .contenedor_3{
     box-shadow: 1px 1px 15px 0px rgba(0,0,0,0.75);
-    background-color: rgba(0, 0, 0, 0.151);
+    background-color: rgb(25 205 231 / 14%);;
     grid-column: 4/4;
     grid-row: 2/4;
     display: flex;
@@ -225,13 +244,12 @@ body{
 
 .contenedor_3 div{
     
-    box-shadow: inset 1px 1px 15px 0px rgba(0,0,0,0.75);
-    background-color: #00b492;
+   
     height: 25%;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: wheat;
+    color: rgb(63, 63, 63);
     font-size: 58px;
     font-family: sans-serif;
     
@@ -240,7 +258,7 @@ body{
 
 .contenedor_4{
     box-shadow: 1px 1px 15px 0px rgba(0,0,0,0.75);
-    background-color: rgba(0, 0, 0, 0.151);
+    background-color: rgb(25 205 231 / 14%);
     grid-column: 1/4;
     display: flex;
     flex-wrap: wrap;
@@ -261,8 +279,7 @@ body{
 
 .cont4d1{
     
-    box-shadow: inset 1px 1px 15px 0px rgba(0,0,0,0.75);
-    background-color: #00b492;
+    
     width: 27%;
     
     
@@ -270,8 +287,7 @@ body{
 }
 
 .cont4d2{
-    box-shadow: inset 1px 1px 15px 0px rgba(0,0,0,0.75);
-    background-color: #00b492;
+    
     width: 70%;
     
     
