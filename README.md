@@ -2,7 +2,7 @@
 
 ---
 
-👉 ver el proyecto: [Proyecto css grid + flexbox](https://danielandradecv.github.io/Ptactica-de-Display-Grid-y-FlexBox/)
+👉 ver el proyecto: [Proyecto css grid + flexbox](https://danielandradecv.github.io/Practica-de-Display-Grid-y-FlexBox/)
 
 El diseño de la interfaz de usuario se basa en la creación de una disposición de elementos flexible y organizada. Utilizando display: grid, puedo dividir la página en una cuadrícula de filas y columnas, permitiéndome colocar y alinear los elementos de forma precisa. Esta técnica es especialmente útil para diseñar diseños complejos y adaptativos <ins>con diseño responsive</ins> .
 
